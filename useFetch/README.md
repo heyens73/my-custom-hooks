@@ -1,3 +1,7 @@
-# Notas
+# useFetch Hook
 
-Este repositorio contiene varios customHooks para ayudar a realizar tareas más rápidas y poder ahorrar código
+Ejemplo de uso
+```
+    const url = 'endpoint de una api';
+    const {data: null, loading: true, error: null} = useFetch(url);
+```

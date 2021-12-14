@@ -1,3 +1,12 @@
-# Notas
+# useForm Hook
 
-Este repositorio contiene varios customHooks para ayudar a realizar tareas más rápidas y poder ahorrar código
+Ejemplo de uso
+```
+    const initialForm = {
+        name: '',
+        age: 0,
+        email: ''
+    };
+    
+    const [formValues, handleInputChange, reset] = useForm(initialForm);
+```
